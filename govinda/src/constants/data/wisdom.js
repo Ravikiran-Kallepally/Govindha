@@ -13,7 +13,7 @@ export const wisdomEntries = [
   {
     id: 2,
     shloka: 'कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥',
-    transliteration: 'Karmaṇy evādhikāras te mā phaleṣu kadācana,\nMā karma-phala-hetur bhūr mā te saṅgo 'stv akarmaṇi.',
+    transliteration: "Karmaṇy evādhikāras te mā phaleṣu kadācana,\nMā karma-phala-hetur bhūr mā te saṅgo 'stv akarmaṇi.",
     meaning: 'You have the right to perform your actions, but never to the fruits thereof. Let not the fruits of action be your motive, nor let your attachment be to inaction.',
     speaker: 'Krishna',
     source: 'Bhagavad Gita 2.47',
@@ -40,7 +40,7 @@ export const wisdomEntries = [
   {
     id: 5,
     shloka: 'अहंकारं बलं दर्पं कामं क्रोधं च संश्रिताः।\nमामात्मपरदेहेषु प्रद्विषन्तोऽभ्यसूयकाः॥',
-    transliteration: 'Ahaṅkāraṃ balaṃ darpaṃ kāmaṃ krodhaṃ ca saṃśritāḥ,\nMām ātma-para-deheṣu pradviṣanto 'bhyasūyakāḥ.',
+    transliteration: "Ahaṅkāraṃ balaṃ darpaṃ kāmaṃ krodhaṃ ca saṃśritāḥ,\nMām ātma-para-deheṣu pradviṣanto 'bhyasūyakāḥ.",
     meaning: 'Those who are envious and mischievous, who are the lowest among men, I perpetually cast into the ocean of material existence into various demoniac species of life.',
     speaker: 'Krishna',
     source: 'Bhagavad Gita 16.18',

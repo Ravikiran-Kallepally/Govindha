@@ -27,7 +27,7 @@ export const keyVerses = [
     chapter: 2,
     verse: 47,
     shloka: 'कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥',
-    transliteration: 'Karmaṇy evādhikāras te mā phaleṣu kadācana,\nMā karma-phala-hetur bhūr mā te saṅgo 'stv akarmaṇi.',
+    transliteration: "Karmaṇy evādhikāras te mā phaleṣu kadācana,\nMā karma-phala-hetur bhūr mā te saṅgo 'stv akarmaṇi.",
     translations: {
       en: 'You have a right to perform your prescribed duties, but you are not entitled to the fruits of your actions. Never consider yourself the cause of the results of your activities, and never be attached to inaction.',
       hi: 'कर्म करने में ही तेरा अधिकार है, फल में नहीं। कर्म के फल का हेतु भी मत बन, और अकर्म में भी तेरी आसक्ति न हो।',
@@ -83,7 +83,7 @@ export const keyVerses = [
     chapter: 11,
     verse: 32,
     shloka: 'कालोऽस्मि लोकक्षयकृत्प्रवृद्धो\nलोकान्समाहर्तुमिह प्रवृत्तः।',
-    transliteration: 'Kālo 'smi loka-kṣaya-kṛt pravṛddho\nlokān samāhartum iha pravṛttaḥ.',
+    transliteration: "Kālo 'smi loka-kṣaya-kṛt pravṛddho\nlokān samāhartum iha pravṛttaḥ.",
     translations: {
       en: 'I am Time, the great destroyer of worlds, and I have come here to destroy all people.',
       hi: 'मैं काल हूं, लोकों का विनाश करने वाला। मैं इन सभी लोगों को नष्ट करने यहाँ आया हूं।',

@@ -3,6 +3,7 @@ import { View, Text, ScrollView, TouchableOpacity, StyleSheet, StatusBar } from 
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { LinearGradient } from 'expo-linear-gradient';
 import { colors } from '../constants/colors';
+import { parvas } from '../constants/data/parvas';
 
 export default function ParvaDetailScreen({ route, navigation }) {
   const { parva } = route.params;
@@ -58,12 +59,18 @@ export default function ParvaDetailScreen({ route, navigation }) {
 
           <View style={styles.navButtons}>
             {parva.id > 1 && (
-              <TouchableOpacity style={styles.navBtn} onPress={() => navigation.goBack()}>
+              <TouchableOpacity
+                style={styles.navBtn}
+                onPress={() => navigation.replace('Parva', { parva: parvas[parva.id - 2] })}
+              >
                 <Text style={styles.navBtnText}>← Prev Parva</Text>
               </TouchableOpacity>
             )}
             {parva.id < 18 && (
-              <TouchableOpacity style={[styles.navBtn, styles.navBtnRight]} onPress={() => navigation.goBack()}>
+              <TouchableOpacity
+                style={[styles.navBtn, styles.navBtnRight]}
+                onPress={() => navigation.replace('Parva', { parva: parvas[parva.id] })}
+              >
                 <Text style={styles.navBtnText}>Next Parva →</Text>
               </TouchableOpacity>
             )}
