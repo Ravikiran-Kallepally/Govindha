@@ -116,7 +116,7 @@ export default function HomeScreen({ navigation }) {
           <QuickAccessCard
             emoji="👥"
             title="Characters"
-            subtitle="200+ souls"
+            subtitle="Epic souls"
             gradient={['#1B5E20', '#2E7D32']}
             onPress={() => navigation.navigate('Characters')}
           />

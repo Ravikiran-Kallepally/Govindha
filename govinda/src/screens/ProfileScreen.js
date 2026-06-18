@@ -136,7 +136,7 @@ export default function ProfileScreen() {
           <View style={styles.aboutCard}>
             <Text style={styles.aboutTitle}>Govinda 🪈</Text>
             <Text style={styles.aboutText}>
-              The Living Mahabharata — your companion through the greatest story ever told. 100,000 shlokas. 200+ characters. 18 days of war. One eternal truth.
+              The Living Mahabharata — your companion through the greatest story ever told. 18 Parvas. 700 Gita verses. 18 days of war. One eternal truth.
             </Text>
             <Text style={styles.aboutVersion}>Version 1.0.0 · Built with ❤️ in India</Text>
           </View>
